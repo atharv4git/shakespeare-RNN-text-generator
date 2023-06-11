@@ -20,4 +20,4 @@ if st.button("Learn abour RNNs"):
 num = int(st.number_input("Enter the number of lines to generate"))
 if num:
     st.title("RNN generated output")
-    st.write(model_output(num))
+    st.write(model_output(num*100))
